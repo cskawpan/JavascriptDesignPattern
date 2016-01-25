@@ -30,7 +30,8 @@ var mySingleton = (function () {
 			}	
 		};
 	};
- 
+	
+	//ส่วนของการ return ข้อมูลกลับของฟังชัน mySingleton
 	return {
 		//ส่วนนี้เมื่อมีการเรียกใช้งาน singleton จะทำการเช็คว่าค่า
 		//instance ได้มีการกำหนดฟังชัน init ให้กับ instance หรือยัง ถ้ายังจะกำหนดให้ instance
